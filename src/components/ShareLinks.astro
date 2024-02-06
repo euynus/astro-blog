@@ -9,31 +9,37 @@ const shareLinks = [
     name: "WhatsApp",
     href: "https://wa.me/?text=",
     linkTitle: `Share this post via WhatsApp`,
+    active: false,
   },
   {
     name: "Facebook",
     href: "https://www.facebook.com/sharer.php?u=",
     linkTitle: `Share this post on Facebook`,
+    active: false,
   },
   {
     name: "Twitter",
     href: "https://twitter.com/intent/tweet?url=",
     linkTitle: `Tweet this post`,
+    active: true,
   },
   {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
     linkTitle: `Share this post via Telegram`,
+    active: true,
   },
   {
     name: "Pinterest",
     href: "https://pinterest.com/pin/create/button/?url=",
     linkTitle: `Share this post on Pinterest`,
+    active: false,
   },
   {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
     linkTitle: `Share this post via email`,
+    active: false,
   },
 ] as const;
 ---
@@ -42,7 +48,7 @@ const shareLinks = [
   <span class="italic">Share this post on:</span>
   <div class="text-center">
     {
-      shareLinks.map(social => (
+      shareLinks.filter(shareLink => shareLink.active).map(social => (
         <LinkButton
           href={`${social.href + URL}`}
           className="link-button"
