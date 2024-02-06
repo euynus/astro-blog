@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://www.suny.me/", // replace this with your deployed domain
   author: "Suny",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "SUNY",
+  title: "Suny",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -44,9 +44,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/yue-sun-50a89182/",
     linkTitle: `${SITE.author} on LinkedIn`,
-    active: false,
+    active: true,
   },
   {
     name: "Mail",
