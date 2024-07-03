@@ -9,7 +9,7 @@ tags:
   - 游记
   - 弥勒
 description: 2024 端午节弥勒旅游
-ogImage: https://static.suny.me/2024/07/d38c8ccd9d99be489d18ca3343f151c6.jpg
+ogImage: https://static.suny.me/2024/07/63ad74830e7bd3b0badfadd5d7171476.jpg
 ---
 
 ## Table of contents
