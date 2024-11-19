@@ -1,36 +1,49 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于我"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## 👋 你好！
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+你好，我是 Suny，一名后端开发者，擅长 Python 和 C 编程语言，目前正在学习 Rust，不断扩展我的技术领域。我熟悉的框架包括 Django、Flask、Tornado 和 Vue，专注于构建高效、稳定的后端系统。
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+## 🚀 技术栈
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+- **编程语言**: Python, C, Rust(学习中)
+- **Web 框架**: Django, Flask, Tornado
+- **前端技术**: Vue.js
+- **数据库**: MySQL, PostgreSQL, Redis, MongoDB
+- **开发工具**: Git, Docker, Linux, MacOS
 
-## Tech Stack
+## 💡 关于这个博客
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+这个博客是我分享技术探索、项目经验以及编程技巧的地方。我希望通过自己的学习与实践，为开发者社区提供一些有价值的内容，同时记录下自己的学习之路。
 
-## Features
+在这里，你可以找到：
 
-Here are certain features of this site.
+- 技术教程和最佳实践
+- 项目开发经验分享
+- 编程心得和技巧
+- 新技术学习笔记
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+## 🎮 工作之外
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+除了代码与项目，我也热爱生活中的其他乐趣，比如：
+
+- 🎮 玩游戏
+- 🏃‍♂️ 跑步
+- ✈️ 旅行
+
+这些兴趣爱好让我在忙碌的开发工作之余找到平衡，也启发了我对技术与生活的不同思考。
+
+## 📫 保持联系
+
+如果你对博客内容感兴趣，或者有任何问题、建议，欢迎随时通过以下方式与我交流，我们一起学习与成长！
+
+- 📧 邮箱：[contact@suny.me]
+- 💻 GitHub：[https://github.com/euynus]
+- 🐦 Twitter：[https://twitter.com/euynuss]
+
+---
+
+> "我听到了就忘记了，我看见了就记住了，我做过了就理解了。"
