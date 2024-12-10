@@ -3,12 +3,20 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://www.suny.me/", // replace this with your deployed domain
   author: "Suny",
+  profile: "https://www.suny.me/about",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Suny's Blog",
+  title: "AstroPaper",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 5,
+  postPerIndex: 4,
+  postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  showArchives: true,
+  editPost: {
+    url: "https://github.com/euynus/astro-blog/edit/main/src/content/blog",
+    text: "Suggest Changes",
+    appendFilePath: true,
+  },
 };
 
 export const LOCALE = {
@@ -55,8 +63,8 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Twitter",
-    href: "https://twitter.com/euynuss",
+    name: "X",
+    href: "https://x.com/euynuss",
     linkTitle: `${SITE.author} on Twitter`,
     active: true,
   },
