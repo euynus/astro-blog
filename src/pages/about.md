@@ -9,7 +9,7 @@ title: "关于我"
 
 ## 🚀 技术栈
 
-- **核心语言**: Python (12年+), C (3年+), Rust (学习中)
+- **核心语言**: Python, C, Swift, Rust
 - **后端框架**: Django, Flask, Tornado
 - **前端技术**: Vue.js, HTML5, CSS3
 - **数据存储**: MySQL, PostgreSQL, Redis, MongoDB, ClickHouse
