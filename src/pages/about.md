@@ -51,4 +51,8 @@ title: "关于我"
 - 🐦 X: [@euynuss](https://x.com/euynuss)
 - 📝 RSS: [订阅博客更新](/rss.xml)
 
+## 我的Referral
+
+- [BandwagonHost](https://bandwagonhost.com/aff.php?aff=2477)
+- [GreenCloudVPS](https://greencloudvps.com/billing/aff.php?aff=7425)
 ---
