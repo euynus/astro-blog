@@ -26,7 +26,9 @@ const { activeNav } = Astro.props;
               height={LOGO_IMAGE.height}
             />
           ) : (
-            SITE.title
+            <span class="logo-text">
+              <span class="logo-symbol">&lt;/&gt;</span> {SITE.title}
+            </span>
           )
         }
       </a>
@@ -168,6 +170,13 @@ const { activeNav } = Astro.props;
   }
   .menu-icon.is-active .close {
     @apply opacity-100;
+  }
+
+  .logo-text {
+    @apply flex items-center gap-2;
+  }
+  .logo-symbol {
+    @apply text-skin-accent;
   }
 </style>
 
