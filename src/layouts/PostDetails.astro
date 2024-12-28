@@ -93,6 +93,32 @@ const nextPost =
       {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
     </ul>
 
+    <div class="copyright my-8 rounded-lg border-2 border-skin-line p-4 text-sm">
+      <p class="mb-2">
+        <strong>本文作者：</strong>{author || SITE.author}
+      </p>
+      <p class="mb-2">
+        <strong>本文链接：</strong>
+        <a href={canonicalURL || Astro.url.href} class="hover:text-skin-accent">
+          {canonicalURL || Astro.url.href}
+        </a>
+      </p>
+      <p>
+        <strong>版权声明：</strong>本博客所有文章除特别声明外，均采用
+        <a
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+          target="_blank"
+          class="hover:text-skin-accent"
+        >
+          CC BY-NC-SA 4.0
+        </a>
+        许可协议。转载请注明来源{" "}
+        <a href={SITE.website} class="hover:text-skin-accent">
+          {SITE.author}'s Blog
+        </a>！
+      </p>
+    </div>
+
     <div
       class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
     >
