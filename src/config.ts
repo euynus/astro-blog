@@ -159,3 +159,11 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
 ];
+
+export const NAV_ITEMS = [
+  { href: "/posts/", label: "Posts", id: "posts" },
+  { href: "/tags/", label: "Tags", id: "tags" },
+  { href: "/about/", label: "About", id: "about" },
+] as const;
+
+export type NavItem = typeof NAV_ITEMS[number];
