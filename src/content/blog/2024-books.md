@@ -1,7 +1,7 @@
 ---
 author: suny
 pubDatetime: 2024-12-29T18:51:04.000+08:00
-modDatetime: 2024-12-29T18:51:04.000+08:00
+modDatetime: 2024-12-29T19:10:04.000+08:00
 title: 📚 2024 读书记录
 featured: true
 draft: false
@@ -17,7 +17,7 @@ description: 2024 读书记录
 
 ### 技术类书籍
 
-[《ClickHouse原理解析与应用实践》](https://book.douban.com/subject/35091211/)
+* [《ClickHouse原理解析与应用实践》](https://book.douban.com/subject/35091211/)
 
 ### 非技术类书籍
 
