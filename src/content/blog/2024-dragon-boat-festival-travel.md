@@ -12,6 +12,7 @@ tags:
   - 端午节
 description: 2024 端午节期间探访云南弥勒，体验"一座公园半座城"的独特魅力，感受佛城文化与自然之美
 ogImage: https://static.suny.me/2024/07/63ad74830e7bd3b0badfadd5d7171476.jpg
+canonicalURL: https://www.suny.me/2024-dragon-boat-festival-travel
 ---
 
 ## 前言

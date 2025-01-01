@@ -9,6 +9,7 @@ tags:
   - 读书
   - 书单
 description: 2024 读书记录
+canonicalURL: https://www.suny.me/2024-books
 ---
 
 ## 2024 读书记录
