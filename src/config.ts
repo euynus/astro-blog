@@ -166,4 +166,4 @@ export const NAV_ITEMS = [
   { href: "/about/", label: "About", id: "about" },
 ] as const;
 
-export type NavItem = typeof NAV_ITEMS[number];
+export type NavItem = (typeof NAV_ITEMS)[number];
