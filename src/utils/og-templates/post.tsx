@@ -4,6 +4,26 @@ import { SITE } from "@config";
 import loadGoogleFonts, { type FontOptions } from "../loadGoogleFont";
 
 export default async (post: CollectionEntry<"blog">) => {
+  const googleFonts = await loadGoogleFonts(
+    post.data.title + post.data.author + SITE.title + "by"
+  );
+
+  // Satori configuration - only include fonts if we successfully loaded them
+  const satoriOptions: {
+    width: number;
+    height: number;
+    embedFont?: boolean;
+    fonts?: FontOptions[];
+  } = {
+    width: 1200,
+    height: 630,
+  };
+
+  if (googleFonts.length > 0) {
+    satoriOptions.embedFont = true;
+    satoriOptions.fonts = googleFonts as FontOptions[];
+  }
+
   return satori(
     <div
       style={{
@@ -13,6 +33,7 @@ export default async (post: CollectionEntry<"blog">) => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        fontFamily: googleFonts.length > 0 ? "IBM Plex Mono" : "Arial, sans-serif",
       }}
     >
       <div
@@ -94,13 +115,6 @@ export default async (post: CollectionEntry<"blog">) => {
         </div>
       </div>
     </div>,
-    {
-      width: 1200,
-      height: 630,
-      embedFont: true,
-      fonts: (await loadGoogleFonts(
-        post.data.title + post.data.author + SITE.title + "by"
-      )) as FontOptions[],
-    }
+    satoriOptions
   );
 };
