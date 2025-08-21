@@ -10,10 +10,12 @@ export interface Props {
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
-  const postResult = posts.map(post => ({
-    params: { slug: post.slug },
-    props: { post },
-  }));
+  const postResult = posts
+    .filter(post => post.slug) // Filter out any posts without a valid slug
+    .map(post => ({
+      params: { slug: post.slug },
+      props: { post },
+    }));
 
   return postResult;
 }
